@@ -1,6 +1,6 @@
 package debugging_runtime
 
-import "github.com/langgenius/dify-plugin-daemon/internal/service/install_service"
+import "github.com/ArcherChu123/plugin-daemon/internal/service/install_service"
 
 func (plugin *RemotePluginRuntime) Register() error {
 	_, installation, err := install_service.InstallPlugin(

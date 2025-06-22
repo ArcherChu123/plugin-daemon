@@ -1,6 +1,6 @@
 package serverless_runtime
 
-import "github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+import "github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 
 func (r *ServerlessPluginRuntime) StartPlugin() error {
 	return nil

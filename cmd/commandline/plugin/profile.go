@@ -3,9 +3,9 @@ package plugin
 import (
 	"fmt"
 
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 	ti "github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
 )
 
 type profile struct {

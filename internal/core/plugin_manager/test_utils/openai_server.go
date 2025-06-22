@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/network"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/network"
 	"golang.org/x/exp/rand"
 )
 

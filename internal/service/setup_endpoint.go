@@ -4,16 +4,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager"
-	"github.com/langgenius/dify-plugin-daemon/internal/db"
-	"github.com/langgenius/dify-plugin-daemon/internal/service/install_service"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/exception"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/models"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/cache/helper"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/encryption"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/db"
+	"github.com/ArcherChu123/plugin-daemon/internal/service/install_service"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/exception"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/models"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/cache/helper"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/encryption"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 func SetupEndpoint(

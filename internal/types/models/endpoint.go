@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 // HookID is a pointer to plugin id and tenant id, using it to identify the endpoint plugin

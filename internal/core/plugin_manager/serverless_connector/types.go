@@ -3,7 +3,7 @@ package serverless
 import (
 	"fmt"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 type RunnerInstance struct {

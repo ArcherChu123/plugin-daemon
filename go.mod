@@ -1,4 +1,4 @@
-module github.com/langgenius/dify-plugin-daemon
+module github.com/ArcherChu123/plugin-daemon
 
 go 1.23.3
 

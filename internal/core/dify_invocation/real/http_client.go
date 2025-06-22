@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation"
 )
 
 type NewDifyInvocationDaemonPayload struct {

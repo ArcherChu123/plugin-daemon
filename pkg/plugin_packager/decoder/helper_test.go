@@ -3,7 +3,7 @@ package decoder
 import (
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 	"github.com/stretchr/testify/assert"
 )
 

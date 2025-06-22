@@ -1,6 +1,6 @@
 package models
 
-import "github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+import "github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 
 type InstallTaskStatus string
 

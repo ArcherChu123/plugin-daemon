@@ -3,11 +3,11 @@ package backwards_invocation
 import (
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation/tester"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/access_types"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/session_manager"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation/tester"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/access_types"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/session_manager"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 func getTestSession() *session_manager.Session {

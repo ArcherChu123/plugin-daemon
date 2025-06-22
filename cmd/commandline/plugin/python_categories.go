@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 func createPythonTool(root string, manifest *plugin_entities.PluginDeclaration) error {

@@ -1,7 +1,7 @@
 package jsonschema
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/strings"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/strings"
 	"github.com/xeipuuv/gojsonschema"
 )
 

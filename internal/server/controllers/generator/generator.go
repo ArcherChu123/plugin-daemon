@@ -9,9 +9,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/access_types"
-	"github.com/langgenius/dify-plugin-daemon/internal/server/controllers/definitions"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/mapping"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/access_types"
+	"github.com/ArcherChu123/plugin-daemon/internal/server/controllers/definitions"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/mapping"
 	"golang.org/x/tools/imports"
 )
 

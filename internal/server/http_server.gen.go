@@ -2,9 +2,9 @@
 package server
 
 import (
+	"github.com/ArcherChu123/plugin-daemon/internal/server/controllers"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/server/controllers"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
 )
 
 func (app *App) setupGeneratedRoutes(group *gin.RouterGroup, config *app.Config) {

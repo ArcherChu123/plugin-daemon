@@ -3,11 +3,11 @@ package controllers
 import (
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/service"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/requests"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/service"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/requests"
 )
 
 func OAuthGetAuthorizationURL(config *app.Config) gin.HandlerFunc {

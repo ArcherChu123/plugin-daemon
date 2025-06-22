@@ -1,11 +1,11 @@
 package db
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/db/mysql"
-	"github.com/langgenius/dify-plugin-daemon/internal/db/pg"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/models"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/db/mysql"
+	"github.com/ArcherChu123/plugin-daemon/internal/db/pg"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/models"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
 )
 
 func autoMigrate() error {

@@ -3,7 +3,7 @@ package plugin
 import (
 	"bytes"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
 	"gopkg.in/yaml.v3"
 )
 

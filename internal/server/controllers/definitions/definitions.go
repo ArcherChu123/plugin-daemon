@@ -1,11 +1,11 @@
 package definitions
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/access_types"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/model_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/oauth_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/requests"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/tool_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/access_types"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/model_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/oauth_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/requests"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/tool_entities"
 )
 
 // PluginDispatcher defines a plugin dispatcher

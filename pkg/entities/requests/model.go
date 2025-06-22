@@ -3,7 +3,7 @@ package requests
 import (
 	"encoding/json"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/model_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/model_entities"
 )
 
 type Credentials struct {

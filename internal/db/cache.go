@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/cache"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/cache"
 )
 
 const (

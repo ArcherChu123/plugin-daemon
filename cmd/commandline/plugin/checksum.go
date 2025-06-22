@@ -3,8 +3,8 @@ package plugin
 import (
 	"os"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
 )
 
 func CalculateChecksum(pluginPath string) {

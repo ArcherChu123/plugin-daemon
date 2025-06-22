@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/network"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/endpoint_entities"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/network"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/endpoint_entities"
 )
 
 type SimulationCheckServer struct {

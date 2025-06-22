@@ -1,8 +1,8 @@
 package bundle_packager
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/bundle_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/manifest_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/bundle_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/manifest_entities"
 )
 
 type BundlePackager interface {

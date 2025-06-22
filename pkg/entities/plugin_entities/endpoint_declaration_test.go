@@ -3,7 +3,7 @@ package plugin_entities
 import (
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
 )
 
 func TestUnmarshalEndpointDeclarationFromYaml(t *testing.T) {

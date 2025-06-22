@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/manifest_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/manifest_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 type Plugin struct {

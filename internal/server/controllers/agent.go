@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/service"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/service"
 )
 
 func ListAgentStrategies(c *gin.Context) {

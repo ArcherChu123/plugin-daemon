@@ -3,9 +3,9 @@ package cluster
 import (
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/cache"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/cache"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
 )
 
 const (

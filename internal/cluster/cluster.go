@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/mapping"
 	"github.com/google/uuid"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/mapping"
 )
 
 type Cluster struct {

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
 	"github.com/stretchr/testify/assert"
 )
 

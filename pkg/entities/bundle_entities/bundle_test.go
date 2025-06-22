@@ -3,7 +3,7 @@ package bundle_entities
 import (
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
 )
 
 func TestAvoidNilTags(t *testing.T) {

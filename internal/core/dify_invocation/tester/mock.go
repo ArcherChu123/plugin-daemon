@@ -3,13 +3,13 @@ package tester
 import (
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
-	jsonschema "github.com/langgenius/dify-plugin-daemon/internal/utils/json_schema"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/model_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/tool_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation"
+	jsonschema "github.com/ArcherChu123/plugin-daemon/internal/utils/json_schema"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/model_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/tool_entities"
 )
 
 type MockedDifyInvocation struct{}

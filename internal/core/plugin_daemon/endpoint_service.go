@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/session_manager"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/endpoint_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/requests"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/session_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/endpoint_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/requests"
 )
 
 func InvokeEndpoint(

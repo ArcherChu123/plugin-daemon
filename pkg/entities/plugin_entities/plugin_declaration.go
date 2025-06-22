@@ -6,11 +6,11 @@ import (
 	"regexp"
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/constants"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/manifest_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/validators"
 	"github.com/go-playground/validator/v10"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/constants"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/manifest_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/validators"
 )
 
 type PluginCategory string
