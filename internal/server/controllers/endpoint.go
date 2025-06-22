@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"github.com/ArcherChu123/plugin-daemon/internal/service"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/service"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
 )
 
 func SetupEndpoint(ctx *gin.Context) {

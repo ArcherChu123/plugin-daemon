@@ -1,7 +1,7 @@
 package plugin_manager
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 // UninstallFromLocal uninstalls a plugin from local storage

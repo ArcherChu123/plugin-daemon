@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/ArcherChu123/plugin-daemon/pkg/validators"
 	"github.com/go-playground/validator/v10"
-	"github.com/langgenius/dify-plugin-daemon/pkg/validators"
 )
 
 type Version string

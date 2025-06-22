@@ -3,7 +3,7 @@ package cluster
 import (
 	"errors"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/cache"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/cache"
 )
 
 // Plugin daemon will preemptively try to lock the slot to be the master of the cluster

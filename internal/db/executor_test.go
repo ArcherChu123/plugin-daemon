@@ -3,9 +3,9 @@ package db
 import (
 	"testing"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/models"
 	"github.com/google/uuid"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/models"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/gorm"
 )

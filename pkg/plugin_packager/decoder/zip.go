@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/consts"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/consts"
 )
 
 type ZipPluginDecoder struct {
@@ -282,7 +282,7 @@ func (z *ZipPluginDecoder) Manifest() (plugin_entities.PluginDeclaration, error)
 }
 
 func (z *ZipPluginDecoder) Assets() (map[string][]byte, error) {
-	// FIXES: https://github.com/langgenius/dify-plugin-daemon/issues/166
+	// FIXES: https://github.com/ArcherChu123/plugin-daemon/issues/166
 	// zip file is os-independent, `/` is the separator
 	return z.PluginDecoderHelper.Assets(z, "/")
 }

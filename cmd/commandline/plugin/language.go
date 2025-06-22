@@ -3,8 +3,8 @@ package plugin
 import (
 	"fmt"
 
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/constants"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/constants"
 )
 
 var languages = []constants.Language{

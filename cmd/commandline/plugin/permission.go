@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
 	ti "github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
 )
 
 var permissionKeySeq = []string{

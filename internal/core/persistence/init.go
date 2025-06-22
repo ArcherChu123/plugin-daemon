@@ -3,8 +3,8 @@ package persistence
 import (
 	"github.com/langgenius/dify-cloud-kit/oss"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
 )
 
 var (

@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/network"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/network"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
 )
 
 func TestEncryptRequired(t *testing.T) {

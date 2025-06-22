@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/cache"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/cache"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
 )
 
 var (

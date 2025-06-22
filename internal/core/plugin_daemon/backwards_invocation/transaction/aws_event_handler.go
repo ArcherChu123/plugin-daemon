@@ -6,13 +6,13 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/backwards_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/session_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/backwards_invocation"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/session_manager"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
 )
 
 type AWSTransactionHandler struct {

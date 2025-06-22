@@ -3,8 +3,8 @@ package local_runtime
 import (
 	"sync"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/basic_runtime"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/basic_runtime"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 type LocalPluginRuntime struct {

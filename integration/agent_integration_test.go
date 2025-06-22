@@ -4,12 +4,12 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/access_types"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/test_utils"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/agent_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/requests"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/access_types"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/test_utils"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/agent_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/requests"
 	"github.com/stretchr/testify/assert"
 )
 

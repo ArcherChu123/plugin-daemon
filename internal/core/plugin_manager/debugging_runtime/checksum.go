@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
 )
 
 func (m *RemotePluginRuntime) calculateChecksum() string {

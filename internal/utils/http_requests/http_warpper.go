@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
 )
 
 func parseJsonBody(resp *http.Response, ret interface{}) error {

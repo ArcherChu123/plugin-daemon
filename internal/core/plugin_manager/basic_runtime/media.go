@@ -1,8 +1,8 @@
 package basic_runtime
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/media_transport"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/media_transport"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 type MediaTransport struct {

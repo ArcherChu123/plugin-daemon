@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/ArcherChu123/plugin-daemon/pkg/validators"
 	"github.com/go-playground/validator/v10"
-	"github.com/langgenius/dify-plugin-daemon/pkg/validators"
 	"github.com/shopspring/decimal"
 )
 

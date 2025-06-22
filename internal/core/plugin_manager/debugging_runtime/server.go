@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/media_transport"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/media_transport"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 	"github.com/panjf2000/gnet/v2"
 
 	gnet_errors "github.com/panjf2000/gnet/v2/pkg/errors"

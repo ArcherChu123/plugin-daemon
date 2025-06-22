@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/endpoint_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/endpoint_entities"
 )
 
 func TestCopyRequest(t *testing.T) {

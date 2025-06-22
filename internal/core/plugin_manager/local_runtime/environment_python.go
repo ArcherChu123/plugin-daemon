@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
 	version "github.com/hashicorp/go-version"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
 )
 
 //go:embed patches/0.0.1b70.ai_model.py.patch

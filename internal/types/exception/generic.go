@@ -1,8 +1,8 @@
 package exception
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities"
 )
 
 type genericError struct {

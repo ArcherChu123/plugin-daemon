@@ -3,8 +3,8 @@ package backwards_invocation
 import (
 	"fmt"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/session_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/session_manager"
 )
 
 type BackwardsInvocationType = dify_invocation.InvokeType

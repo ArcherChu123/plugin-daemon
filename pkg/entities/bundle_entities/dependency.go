@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/manifest_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/validators"
 	"github.com/go-playground/validator/v10"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/manifest_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/validators"
 	"gopkg.in/yaml.v3"
 )
 

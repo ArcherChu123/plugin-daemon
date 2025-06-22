@@ -5,7 +5,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
 )
 
 // createTCPServer creates a stream of clients that are connected to the plugin through a TCP connection

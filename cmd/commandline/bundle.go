@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/langgenius/dify-plugin-daemon/cmd/commandline/bundle"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/bundle_entities"
+	"github.com/ArcherChu123/plugin-daemon/cmd/commandline/bundle"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/bundle_entities"
 	"github.com/spf13/cobra"
 )
 

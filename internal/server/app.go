@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/cluster"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/backwards_invocation/transaction"
+	"github.com/ArcherChu123/plugin-daemon/internal/cluster"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/backwards_invocation/transaction"
 )
 
 type App struct {

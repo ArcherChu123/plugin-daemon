@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/encryption"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/signer"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/encryption"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/signer"
 	"github.com/stretchr/testify/assert"
 )
 

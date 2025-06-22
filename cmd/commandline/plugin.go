@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/langgenius/dify-plugin-daemon/cmd/commandline/plugin"
+	"github.com/ArcherChu123/plugin-daemon/cmd/commandline/plugin"
 	"github.com/spf13/cobra"
 )
 

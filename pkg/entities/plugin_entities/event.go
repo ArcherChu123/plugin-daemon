@@ -3,8 +3,8 @@ package plugin_entities
 import (
 	"encoding/json"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/parser"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/parser"
 )
 
 type PluginUniversalEvent struct {

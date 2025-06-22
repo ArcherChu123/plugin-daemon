@@ -3,7 +3,7 @@ package bundle
 import (
 	"os"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
 )
 
 func PackageBundle(bundlePath string, outputPath string) {

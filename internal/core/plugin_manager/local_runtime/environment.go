@@ -3,8 +3,8 @@ package local_runtime
 import (
 	"fmt"
 
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/constants"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/constants"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
 )
 
 func (r *LocalPluginRuntime) InitEnvironment() error {

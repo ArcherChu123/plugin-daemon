@@ -3,8 +3,8 @@ package transaction
 import (
 	"io"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/backwards_invocation"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/session_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/backwards_invocation"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/session_manager"
 )
 
 type WriteFlushCloser interface {

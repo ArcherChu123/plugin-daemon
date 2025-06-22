@@ -11,19 +11,19 @@ import (
 
 	_ "embed"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/core/dify_invocation/tester"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_daemon/access_types"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/basic_runtime"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/lifecycle"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/local_runtime"
-	"github.com/langgenius/dify-plugin-daemon/internal/core/session_manager"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/log"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/stream"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/requests"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/dify_invocation/tester"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_daemon/access_types"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/basic_runtime"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/lifecycle"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/local_runtime"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/session_manager"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/log"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/stream"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/requests"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
 )
 
 // GetRuntime returns a runtime for a plugin

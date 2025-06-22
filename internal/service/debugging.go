@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/internal/core/plugin_manager/debugging_runtime"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/exception"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities"
+	"github.com/ArcherChu123/plugin-daemon/internal/core/plugin_manager/debugging_runtime"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/exception"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities"
 )
 
 func GetRemoteDebuggingKey(tenant_id string) *entities.Response {

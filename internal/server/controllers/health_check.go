@@ -1,10 +1,10 @@
 package controllers
 
 import (
+	"github.com/ArcherChu123/plugin-daemon/internal/manifest"
+	"github.com/ArcherChu123/plugin-daemon/internal/types/app"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/routine"
 	"github.com/gin-gonic/gin"
-	"github.com/langgenius/dify-plugin-daemon/internal/manifest"
-	"github.com/langgenius/dify-plugin-daemon/internal/types/app"
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/routine"
 )
 
 func HealthCheck(app *app.Config) gin.HandlerFunc {

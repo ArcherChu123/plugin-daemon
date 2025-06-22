@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/langgenius/dify-plugin-daemon/internal/utils/encryption"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/decoder"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/packager"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/signer"
-	"github.com/langgenius/dify-plugin-daemon/pkg/plugin_packager/signer/withkey"
+	"github.com/ArcherChu123/plugin-daemon/internal/utils/encryption"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/decoder"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/packager"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/signer"
+	"github.com/ArcherChu123/plugin-daemon/pkg/plugin_packager/signer/withkey"
 )
 
 //go:embed testdata/manifest.yaml

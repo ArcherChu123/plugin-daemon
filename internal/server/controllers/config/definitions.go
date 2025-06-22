@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/model_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/plugin_entities"
-	"github.com/langgenius/dify-plugin-daemon/pkg/entities/requests"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/model_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/plugin_entities"
+	"github.com/ArcherChu123/plugin-daemon/pkg/entities/requests"
 )
 
 // PluginInvoker defines a plugin invocation controller configuration
