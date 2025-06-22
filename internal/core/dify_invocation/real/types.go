@@ -6,11 +6,11 @@ import (
 )
 
 type RealBackwardsInvocation struct {
-	difyInnerApiKey     string
-	difyInnerApiBaseurl *url.URL
-	client              *http.Client
-	writeTimeout        int64
-	readTimeout         int64
+	InnerApiKey     string
+	InnerApiBaseurl *url.URL
+	client          *http.Client
+	writeTimeout    int64
+	readTimeout     int64
 }
 
 type BaseBackwardsInvocationResponse[T any] struct {

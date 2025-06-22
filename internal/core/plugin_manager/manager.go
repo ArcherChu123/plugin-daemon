@@ -143,10 +143,10 @@ func (p *PluginManager) Launch(configuration *app.Config) {
 
 	invocation, err := real.NewDifyInvocationDaemon(
 		real.NewDifyInvocationDaemonPayload{
-			BaseUrl:      configuration.DifyInnerApiURL,
-			CallingKey:   configuration.DifyInnerApiKey,
-			WriteTimeout: configuration.DifyInvocationWriteTimeout,
-			ReadTimeout:  configuration.DifyInvocationReadTimeout,
+			BaseUrl:      configuration.InnerApiURL,
+			CallingKey:   configuration.InnerApiKey,
+			WriteTimeout: configuration.InvocationWriteTimeout,
+			ReadTimeout:  configuration.InvocationReadTimeout,
 		},
 	)
 	if err != nil {

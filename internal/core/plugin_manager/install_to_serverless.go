@@ -35,7 +35,7 @@ func (p *PluginManager) InstallToAWSFromPkg(
 	}
 
 	// serverless.LaunchPlugin will check if the plugin has already been launched, if so, it returns directly
-	response, err := serverless.LaunchPlugin(originalPackager, decoder, p.config.DifyPluginServerlessConnectorLaunchTimeout, false)
+	response, err := serverless.LaunchPlugin(originalPackager, decoder, p.config.PluginServerlessConnectorLaunchTimeout, false)
 	if err != nil {
 		return nil, err
 	}
@@ -158,7 +158,7 @@ func (p *PluginManager) ReinstallToAWSFromPkg(
 	response, err := serverless.LaunchPlugin(
 		originalPackager,
 		decoder,
-		p.config.DifyPluginServerlessConnectorLaunchTimeout,
+		p.config.PluginServerlessConnectorLaunchTimeout,
 		true, // ignoreIdempotent, true means always reinstall
 	)
 	if err != nil {

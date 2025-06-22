@@ -16,8 +16,8 @@ type Config struct {
 	AdminApiKey     string `envconfig:"ADMIN_API_KEY"`
 
 	// dify inner api
-	DifyInnerApiURL string `envconfig:"DIFY_INNER_API_URL" validate:"required"`
-	DifyInnerApiKey string `envconfig:"DIFY_INNER_API_KEY" validate:"required"`
+	InnerApiURL string `envconfig:"INNER_API_URL" validate:"required"`
+	InnerApiKey string `envconfig:"INNER_API_KEY" validate:"required"`
 
 	// storage config
 	// https://github.com/langgenius/dify-cloud-kit/blob/main/oss/factory/factory.go
@@ -147,11 +147,11 @@ type Config struct {
 	LifetimeCollectionGCInterval        int `envconfig:"LIFETIME_COLLECTION_GC_INTERVAL" validate:"required"`
 	LifetimeStateGCInterval             int `envconfig:"LIFETIME_STATE_GC_INTERVAL" validate:"required"`
 
-	DifyInvocationConnectionIdleTimeout int `envconfig:"DIFY_INVOCATION_CONNECTION_IDLE_TIMEOUT" validate:"required"`
+	InvocationConnectionIdleTimeout int `envconfig:"INVOCATION_CONNECTION_IDLE_TIMEOUT" validate:"required"`
 
-	DifyPluginServerlessConnectorURL           *string `envconfig:"DIFY_PLUGIN_SERVERLESS_CONNECTOR_URL"`
-	DifyPluginServerlessConnectorAPIKey        *string `envconfig:"DIFY_PLUGIN_SERVERLESS_CONNECTOR_API_KEY"`
-	DifyPluginServerlessConnectorLaunchTimeout int     `envconfig:"DIFY_PLUGIN_SERVERLESS_CONNECTOR_LAUNCH_TIMEOUT"`
+	PluginServerlessConnectorURL           *string `envconfig:"PLUGIN_SERVERLESS_CONNECTOR_URL"`
+	PluginServerlessConnectorAPIKey        *string `envconfig:"PLUGIN_SERVERLESS_CONNECTOR_API_KEY"`
+	PluginServerlessConnectorLaunchTimeout int     `envconfig:"PLUGIN_SERVERLESS_CONNECTOR_LAUNCH_TIMEOUT"`
 
 	MaxPluginPackageSize            int64 `envconfig:"MAX_PLUGIN_PACKAGE_SIZE" validate:"required"`
 	MaxBundlePackageSize            int64 `envconfig:"MAX_BUNDLE_PACKAGE_SIZE" validate:"required"`
@@ -189,9 +189,9 @@ type Config struct {
 	HealthApiLogEnabled *bool `envconfig:"HEALTH_API_LOG_ENABLED"`
 
 	// dify invocation write timeout in milliseconds
-	DifyInvocationWriteTimeout int64 `envconfig:"DIFY_BACKWARDS_INVOCATION_WRITE_TIMEOUT" default:"5000"`
+	InvocationWriteTimeout int64 `envconfig:"BACKWARDS_INVOCATION_WRITE_TIMEOUT" default:"5000"`
 	// dify invocation read timeout in milliseconds
-	DifyInvocationReadTimeout int64 `envconfig:"DIFY_BACKWARDS_INVOCATION_READ_TIMEOUT" default:"240000"`
+	InvocationReadTimeout int64 `envconfig:"BACKWARDS_INVOCATION_READ_TIMEOUT" default:"240000"`
 }
 
 func (c *Config) Validate() error {
@@ -217,11 +217,11 @@ func (c *Config) Validate() error {
 	}
 
 	if c.Platform == PLATFORM_SERVERLESS {
-		if c.DifyPluginServerlessConnectorURL == nil {
+		if c.PluginServerlessConnectorURL == nil {
 			return fmt.Errorf("dify plugin serverless connector url is empty")
 		}
 
-		if c.DifyPluginServerlessConnectorAPIKey == nil {
+		if c.PluginServerlessConnectorAPIKey == nil {
 			return fmt.Errorf("dify plugin serverless connector api key is empty")
 		}
 

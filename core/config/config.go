@@ -18,9 +18,9 @@ type AppConfig struct {
 	}
 
 	Serverless struct {
-		ConnectorURL     string `env:"DIFY_PLUGIN_SERVERLESS_CONNECTOR_URL"`
-		ConnectorAPIKey  string `env:"DIFY_PLUGIN_SERVERLESS_CONNECTOR_API_KEY"`
-		LaunchTimeoutSec int    `env:"DIFY_PLUGIN_SERVERLESS_CONNECTOR_LAUNCH_TIMEOUT" default:"60"`
+		ConnectorURL     string `env:"PLUGIN_SERVERLESS_CONNECTOR_URL"`
+		ConnectorAPIKey  string `env:"PLUGIN_SERVERLESS_CONNECTOR_API_KEY"`
+		LaunchTimeoutSec int    `env:"PLUGIN_SERVERLESS_CONNECTOR_LAUNCH_TIMEOUT" default:"60"`
 	}
 
 	Signature struct {

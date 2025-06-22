@@ -34,9 +34,9 @@ func NewDifyInvocationDaemon(payload NewDifyInvocationDaemonPayload) (dify_invoc
 		},
 	}
 
-	invocation.difyInnerApiBaseurl = baseurl
+	invocation.InnerApiBaseurl = baseurl
 	invocation.client = client
-	invocation.difyInnerApiKey = payload.CallingKey
+	invocation.InnerApiKey = payload.CallingKey
 	invocation.writeTimeout = payload.WriteTimeout
 	invocation.readTimeout = payload.ReadTimeout
 

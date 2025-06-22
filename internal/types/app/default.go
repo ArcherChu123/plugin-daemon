@@ -11,7 +11,7 @@ func (config *Config) SetDefault() {
 	setDefaultInt(&config.LifetimeCollectionGCInterval, 60)
 	setDefaultInt(&config.LifetimeCollectionHeartbeatInterval, 5)
 	setDefaultInt(&config.LifetimeStateGCInterval, 300)
-	setDefaultInt(&config.DifyInvocationConnectionIdleTimeout, 120)
+	setDefaultInt(&config.InvocationConnectionIdleTimeout, 120)
 	setDefaultInt(&config.PluginRemoteInstallServerEventLoopNums, 8)
 	setDefaultInt(&config.PluginRemoteInstallingMaxConn, 256)
 	setDefaultInt(&config.MaxPluginPackageSize, 52428800)
@@ -20,7 +20,7 @@ func (config *Config) SetDefault() {
 	setDefaultInt(&config.PluginMaxExecutionTimeout, 10*60)
 	setDefaultString(&config.PluginStorageType, oss.OSS_TYPE_LOCAL)
 	setDefaultInt(&config.PluginMediaCacheSize, 1024)
-	setDefaultInt(&config.DifyPluginServerlessConnectorLaunchTimeout, 240)
+	setDefaultInt(&config.PluginServerlessConnectorLaunchTimeout, 240)
 	setDefaultInt(&config.PluginRemoteInstallingMaxSingleTenantConn, 5)
 	setDefaultBoolPtr(&config.PluginRemoteInstallingEnabled, true)
 	setDefaultBoolPtr(&config.PluginEndpointEnabled, true)
@@ -37,8 +37,8 @@ func (config *Config) SetDefault() {
 	setDefaultBoolPtr(&config.ForceVerifyingSignature, true)
 	setDefaultBoolPtr(&config.PipPreferBinary, true)
 	setDefaultBoolPtr(&config.PipVerbose, true)
-	setDefaultInt(&config.DifyInvocationWriteTimeout, 5000)
-	setDefaultInt(&config.DifyInvocationReadTimeout, 240000)
+	setDefaultInt(&config.InvocationWriteTimeout, 5000)
+	setDefaultInt(&config.InvocationReadTimeout, 240000)
 	if config.DBType == "postgresql" {
 		setDefaultString(&config.DBDefaultDatabase, "postgres")
 	} else if config.DBType == "mysql" {
