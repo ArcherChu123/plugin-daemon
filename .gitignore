@@ -16,3 +16,4 @@ bin/
 .venv/
 integration_test_cwd/
 readme.txt
+plugin-daemon.exe
